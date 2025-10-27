@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import SessionProviderWrapper from "./SessionProviderWrapper";
+<<<<<<< HEAD
 import { ThemeProvider } from "next-themes";
+=======
+
+>>>>>>> 1aaf95b (Incorporating the blog and articles section frontend)
 import ThemeProviderWrapper from "./ThemeProviderWrapper";
 
 const geistSans = Geist({
